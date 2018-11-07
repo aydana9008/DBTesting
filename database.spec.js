@@ -1,9 +1,6 @@
-
 describe('searching movie titles on amazon', () => {
 
     var pgp = require('pg-promise')(/*options*/);
-
-
     var cn = {
     host: 'localhost',
     port: 5432,
