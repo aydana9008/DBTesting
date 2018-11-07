@@ -15,10 +15,10 @@ describe('searching movie titles on amazon', () => {
      var arr = [];
 
    
-    it('should pass movie titles on amazon search box starting with "Z"', () => {
+    it('should pass movie titles on amazon search box starting with "L"', () => {
         browser.ignoreSynchronization = true;
         browser.get("https://www.amazon.com");
-        db.any(`select title from film where title LIKE 'Q%'`).then(result=>{
+        db.any(`select title from film where title LIKE 'L%'`).then(result=>{
           arr = result;
             }).catch(error=>{
                 console.log(error)
