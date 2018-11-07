@@ -18,7 +18,7 @@ describe('searching movie titles on amazon', () => {
     it('should pass movie titles on amazon search box starting with "Z"', () => {
         browser.ignoreSynchronization = true;
         browser.get("https://www.amazon.com");
-        db.any(`select title from film where title LIKE 'Z%'`).then(result=>{
+        db.any(`select title from film where title LIKE 'Q%'`).then(result=>{
           arr = result;
             }).catch(error=>{
                 console.log(error)
