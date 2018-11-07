@@ -13,7 +13,7 @@ describe('searching movie titles on amazon', () => {
     };
     var db = pgp(cn);
      var arr = [];
-
+////////////
    
     it('should pass movie titles on amazon search box starting with "L"', () => {
         browser.ignoreSynchronization = true;
