@@ -1,5 +1,5 @@
 describe('searching movie titles on amazon', () => {
-
+// I added comment
     var pgp = require('pg-promise')(/*options*/);
     var cn = {
     host: 'localhost',
