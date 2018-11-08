@@ -1,5 +1,14 @@
 describe('searching movie titles on amazon', () => {
+<<<<<<< HEAD
 // Hello I made change yavuz
+||||||| merged common ancestors
+// Hello I made change mehmet
+=======
+//Hello This is Mehmet again :)  lkjkljffs
+    
+    
+    
+>>>>>>> 1c9d89921e12931ca8b36775be6ea5591e43c23f
     var pgp = require('pg-promise')(/*options*/);
     var cn = {
     host: 'localhost',
@@ -11,6 +20,8 @@ describe('searching movie titles on amazon', () => {
     var db = pgp(cn);
      var arr = [];
 
+    
+    
    
 <<<<<<< HEAD
     it('should pass movie titles on amazon search box starting with "L"', () => {
