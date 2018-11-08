@@ -1,9 +1,6 @@
-
-describe('searching movie titles on amazon', () => {
+describe('searching movie titles on amazon', () => { 
 
     var pgp = require('pg-promise')(/*options*/);
-
-
     var cn = {
     host: 'localhost',
     port: 5432,
@@ -14,12 +11,15 @@ describe('searching movie titles on amazon', () => {
     var db = pgp(cn);
      var arr = [];
 
-   
     it('should pass movie titles on amazon search box starting with "H"', () => {
         browser.ignoreSynchronization = true;
         browser.get("https://www.amazon.com");
-        db.any(`select title from film where title LIKE 'H%'`).then(result=>{
-          arr = result;
+        db.any(`select title from film where title LIKE 'H%'`).then(result=>{=
+    it('should pass movie titles on amazon search box starting with "A"', () => {
+        browser.ignoreSynchronization = true;
+        browser.get("https://www.amazon.com");
+        db.any(`select title from film where title LIKE 'A%'`).then(result=>{
+         arr = result;
             }).catch(error=>{
                 console.log(error)
             }).then(()=>{
