@@ -12,6 +12,7 @@ firstLast6([6,1,2,3]);
 firstLast6([13,6,1,2,3]);
 
 
+
 //task 2
 function sameFirstLast(numbers) {
     if (numbers.length>1) {
@@ -28,6 +29,7 @@ sameFirstLast([1,2,3]);
 sameFirstLast([1,2,3,1]);
 sameFirstLast([1,2,1]);
 sameFirstLast([1]);
+
 
 
 //task 3
