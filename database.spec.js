@@ -12,10 +12,22 @@ describe('searching movie titles on amazon', () => {
      var arr = [];
 
    
+<<<<<<< HEAD
     it('should pass movie titles on amazon search box starting with "L"', () => {
+||||||| merged common ancestors
+    it('should pass movie titles on amazon search box starting with "Z"', () => {
+=======
+    it('should pass movie titles on amazon search box starting with "H"', () => {
+>>>>>>> yavuzBranch
         browser.ignoreSynchronization = true;
         browser.get("https://www.amazon.com");
+<<<<<<< HEAD
         db.any(`select title from film where title LIKE 'L%'`).then(result=>{
+||||||| merged common ancestors
+        db.any(`select title from film where title LIKE 'Z%'`).then(result=>{
+=======
+        db.any(`select title from film where title LIKE 'H%'`).then(result=>{
+>>>>>>> yavuzBranch
           arr = result;
             }).catch(error=>{
                 console.log(error)
