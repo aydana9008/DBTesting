@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="CalculateSum"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Dog2"/>
+<fullyQualifiedTypeName name="TaskConstructor"/>
+<fullyQualifiedTypeName name="Car"/>
+<fullyQualifiedTypeName name="TaskBankAccount"/>
+<fullyQualifiedTypeName name="computer.Dimensions"/>
+<fullyQualifiedTypeName name="computer.Motherboard"/>
+<fullyQualifiedTypeName name="computer.Monitor"/>
+<fullyQualifiedTypeName name="computer.Resolution"/>
+<fullyQualifiedTypeName name="Animal"/>
+<fullyQualifiedTypeName name="Dog"/>
+<fullyQualifiedTypeName name="Bird"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Parrot"/>
+<fullyQualifiedTypeName name="DeskPhone"/>
+</qualifiedTypeNameHistroy>
